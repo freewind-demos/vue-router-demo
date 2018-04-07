@@ -1,5 +1,25 @@
 {
+  "name": "vue-router-demo",
+  "description": "Vue Hello World Demo ====================",
+  "version": "1.0.0",
+  "main": "hello.js",
   "dependencies": {
-    "vue": "^2.5.16"
-  }
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/js-demos/vue-router-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/js-demos/vue-router-demo/issues"
+  },
+  "homepage": "https://github.com/js-demos/vue-router-demo#readme"
 }

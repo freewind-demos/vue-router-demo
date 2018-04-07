@@ -1,5 +1,5 @@
-Vue Hello World Demo
-====================
+Vue Router Demo
+===============
 
 ```
 npm install

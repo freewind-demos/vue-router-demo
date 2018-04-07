@@ -1,11 +1,19 @@
 <html>
 <head>
-    <script src="./node_modules/vue/dist/vue.js"></script>
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
 </head>
 <body>
-<div id="main">
-    {{ message }}
+<div id="app">
+    <h1>Hello App!</h1>
+    <p>
+        <router-link to="/foo">Go to Foo</router-link>
+        <router-link to="/bar">Go to Bar</router-link>
+        <router-link to="/user/freewind">Go to User Home</router-link>
+    </p>
+    <router-view></router-view>
 </div>
-<script src="./hello.js"></script>
+<script src="./index.js"></script>
 </body>
 </html>
